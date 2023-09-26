@@ -216,7 +216,7 @@
             const password = document.getElementById("password").value;
 
             const xhr = new XMLHttpRequest();
-            xhr.open("DELETE", "http://localhost:8000/user/delete", true);
+            xhr.open("DELETE", "https://consumer-api-server-service-thevineet.cloud.okteto.net/user/delete", true);
             xhr.setRequestHeader("Content-Type", "application/json");
 
             xhr.onreadystatechange = function() {
